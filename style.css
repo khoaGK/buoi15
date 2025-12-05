@@ -1,0 +1,107 @@
+/* Thiết lập chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; /* Nền xám nhạt */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Điều chỉnh vị trí bắt đầu từ trên */
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+/* Card bao quanh nội dung */
+.card {
+    width: 100%;
+    max-width: 700px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Bóng nhẹ */
+    padding: 30px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #f0f2f5;
+}
+
+/* Phần Thêm Sản Phẩm */
+.add-product-section {
+    background-color: #f7f9fc; /* Nền hơi xanh nhạt */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border: 1px solid #e0e4eb;
+}
+
+.add-product-section h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #007bff; /* Màu xanh dương */
+}
+
+/* Input và Button */
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+}
+
+.btn-primary {
+    background-color: #5cb85c; /* Màu xanh lá cây (như nút Thêm) */
+    border-color: #5cb85c;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #4cae4c;
+    border-color: #4cae4c;
+}
+
+/* Danh sách Sản phẩm (Table) */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #e6f7ff; /* Màu nền xanh nhạt cho header */
+    color: #333;
+    font-weight: 600;
+}
+
+/* Màu sắc nút Thao tác */
+.btn-warning { /* Nút Sửa */
+    background-color: #f0ad4e; /* Màu vàng cam */
+    border-color: #f0ad4e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.btn-danger { /* Nút Xóa */
+    background-color: #d9534f; /* Màu đỏ */
+    border-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.btn-warning:hover, .btn-danger:hover {
+    opacity: 0.9;
+}
